@@ -1,0 +1,101 @@
+@charset "utf-8";
+body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,button,textarea,table,tbody,tfoot,thead,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	background: transparent;
+}
+
+article,aside,dialog,figure,footer,header,hgroup,nav,section {
+	display: block;
+}
+
+body,button,input,select,textarea {
+	font: 12px/1.5 arial,\5b8b\4f53,sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {
+	font-size: 100%;
+}
+
+address,cite,dfn,em,var {
+	font-style: normal;
+}
+
+code,kbd,pre,samp {
+	font-family: courier new,courier,monospace;
+}
+
+small {
+	font-size: 12px;
+}
+
+ul,ol,li {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+a {
+	outline: thin none;
+	text-decoration: none!important;
+}
+
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.clearfix:after {
+            content: " ";
+            display: block;
+            clear: both;
+            height: 0;
+        }
+.clearfix {
+   zoom: 1;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.main-title{    
+    text-align: center;
+}
+.main-title h2{
+    border-collapse: separate;
+    color: rgb(245, 0, 94);
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 28px;
+    font-weight: normal;
+    height: 28px;
+    margin-bottom: 10px;
+    line-height: 28px;
+    padding-top: 0px;
+    text-align: center;
+    white-space: nowrap;
+    width: 1190px;
+    zoom: 1;
+}
+.main-title  p{
+    border-collapse: separate;
+    color: rgb(153, 153, 153);
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: normal;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    width: 1190px;
+    zoom: 1;
+}

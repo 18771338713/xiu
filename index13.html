@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单列表</title>
+    <link tyle="text/css" rel="stylesheet" href="css/index13.css"/>
+    <link tyle="text/css" rel="stylesheet" href="css/reset.css"/>
+    <link tyle="text/css" rel="stylesheet" href="css/reset.min.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <!-- header开始 -->
+        <div class="header">
+            <div class="header1"><img src="images/13/1.png"/></div>
+            <div class="header2">
+                <p>客服热线(免长途费)：<span>400-888-4499</span>在线客服</p>
+                <p>欢迎光临走秀网！come&nbsp;on&nbsp;boys&nbsp;[退出]&nbsp;[我的走秀]&nbsp;|&nbsp;帮助中心</p>
+            </div>
+        </div>
+        <div class="header3">
+            <div class="header3-div1 header3-div2">1.我的购物袋</div>
+            <div class="header3-div1">2.填写并核对订单信息</div>
+            <div class="header3-div1">3.成功提交订单</div>
+        </div>
+    <!-- header结束 -->
+    <!-- center开始 -->
+        <div class="center">
+            <p class="center-p1">填写并核对订单信息</p>
+            <div class="center-1">
+                <p class="center-p2">收货人信息</p>
+                <div class="center-2">
+                    <p class="center-2P1"><span><b>*</b>收货人姓名：</span><input type="text" value=""></p>
+                    <p class="center-2P2">
+                        <span><b>*</b>省份/直辖市：</span>
+                        <select>
+                            <option>请选择</option>
+                            <option>请选择</option>
+                            <option>请选择</option>
+                        </select>
+                        <select>
+                            <option>请选择</option>
+                            <option>请选择</option>
+                            <option>请选择</option>
+                        </select>
+                        <select>
+                            <option>请选择</option>
+                            <option>请选择</option>
+                            <option>请选择</option>
+                        </select>
+                    </p>
+                    <p class="center-2P3"><span><b>*</b>详细地址：</span><input type="text" value=""></p>
+                    <p class="center-2P1"><span><b>*</b>邮政编码：</span><input type="text" value=""><a href="javascript:;">查询邮编</a></p>
+                    <p class="center-2P1"><span><b>*</b>手机号码：</span><input type="text" value=""></p>
+                    <p class="center-2P4">您的订单包含海外商品，根据国家相关政策规定，凡购买海外商品需提供身份证信息</p>
+                    <p><span>收货人身份证号码：</span><input type="text" value="">成功登记后将获得30元优惠券</p>
+                    <p class="center-2P5"><input type="checkbox"  value="">设为默认</p>
+                    <p><span>注：</span>如果收货人并非您本人，您可<a href="javascript:;">点此添加订货人联系信息</a>。</p>
+                    <p class="center-2P6">确认收货人信息</p>
+                </div>
+            </div>
+            <div class="center-3">
+                <p class="center-p2">配送信息</p>
+                <div class="center-4">
+                    <div>
+                        <p>配送方式</p>
+                        <p><input type="radio" name="p1">快递，全场满199元免运费！</p>
+                        <p class="center-4Div1p">确认配送信息</p>
+                    </div>
+                    <div>
+                        <p>配送时间</p>
+                        <p><input type="radio" name="p2">工作日、双休日与假日均可送货</p>
+                        <p><input type="radio" name="p2">只双休日、假日送货（工作日不用送）</p>
+                    </div>
+                    <div class="center-4Div3">
+                        <p><input type="radio" name="p3">只工作日送货（双休日、假日不用送）</p>
+                        <p><input type="radio" name="p3">白天没人，尽量安排晚上送货</p>
+                    </div>
+                </div>
+            </div>
+            <div class="center-5">
+                <p class="center-p2">支付方式</p>
+                <div class="center-6">
+                    <p class="center-6P1">您也可以同时：</p>
+                    <div>
+                        <p class="center-6P2"><input type="checkbox" value="">用礼品卡冲抵金额</p>
+                        <p><input type="radio" name="center-6"><b>在线支付</b>即使到账，支持绝大部分银行借记卡、信用卡和支付平台</p>
+                        <p><input type="radio" name="center-6"><b>银行汇款</b>您需提交订单后再到银行把贷款汇入走秀账户，<span>汇款成功后请联系客服告知汇款信息以便及时为您备货</span>，到账后将为您发货，到账时间1-5个工作日！</p>
+                        <p><input type="radio" name="center-6"><b>货到付款</b>先送货再收款，请您在快递人员送货时付款</p>
+                        <p class="center-4Div1p">确认支付方式</p>
+                    </div>
+                </div>
+            </div>
+            <p class="center-7"><b>商品清单</b>[修改]</p>
+            <div class="center-8">
+               <p class="center-8P1">
+                   <span class="center-8Span1">商品</span>
+                   <span class="center-8Span2">走秀价</span>
+                   <span class="center-8Span3">购买价</span>
+                   <span class="center-8Span4">数量</span>
+                   <span class="center-8Span5">小计</span>
+               </p>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50.jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(1).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(2).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(3).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(4).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(5).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(6).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(7).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(8).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(9).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(10).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(11).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+               <div class="center-8Div1">
+                   <div class="center-8Div1div1">
+                       <div class="center-8Div1div1img"><img src="images/13/g1_50_50(12).jpg"></div>
+                       <div>
+                            <p>Gucci</p>
+                            <p>图案印花丝绸百褶裙 </p>
+                            <p>颜色 : 多彩 尺码 : IT36</p>
+                            <p class="center-8Div1div1P1">本商品退货需承担国际配送费，请勿拒收，以免影响返款时效</p>
+                       </div>
+                   </div>
+                   <div class="center-8Div1div2">￥18470</div>
+                   <div class="center-8Div1div3"><span>促</span>￥14776</div>
+                   <div class="center-8Div1div4">1</div>
+                   <div class="center-8Div1div5">￥14776</div>
+               </div>
+            </div>
+            <div class="center-bottom">
+                <div class="center-bottom1">
+                    <div class="center-bottom1div1">享受到促销有：·3.9下单8折</div>
+                    <div class="center-bottom1div2"><span>免</span>本单免运费</div>
+                </div>
+                <div class="center-bottom2">
+                    <div class="center-bottom3">
+                        <p>使用优惠劵/礼包/打折<span>+</span></p>
+                        <p>客户留言<span>+</span></p>
+                        <p>索取发票<span>+</span></p>
+                    </div>
+                    <div class="center-bottom4">
+                        <div class="center-bottom4div1">
+                            <p><span>商品总价：</span>￥173230</p>
+                            <p class="center-bottom4P1"><span>优惠金额：</span>￥34646</p>
+                            <p><span>运费：</span>￥0</p>
+                            <p class="center-bottom4P2"><span>订单应付金额：</span><b>￥138584</b></p>
+                        </div>
+                        <div class="center-bottom4div2">
+                            <div>提交订单<span>&gt;</span></div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    <!-- center结束 -->
+    <!-- footer开始 -->
+        <div class="footer">
+             <span>版权所有&copy;2011-2016上海旅烨网络科技有限公司，严禁抄袭复制</span><span>ICP备案号：泸ICP备15011558号</span>
+        </div>
+    <!-- footer结束 -->
+</div>
+</body>
+</html>

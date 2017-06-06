@@ -1,0 +1,33 @@
+.center{
+    width: 1900px;
+    height: 4910px;
+    margin:0 auto;
+    margin-top:30px;
+    position: relative;
+}
+.center1{
+    width:1437px;
+    height: 824px;
+    margin:0 auto;
+    padding-top:20px;
+}
+
+.center2{
+    margin:0 auto;
+    width: 1900px;
+    position: absolute;
+    top:670px;
+    left:6px;
+}
+.center3{
+    width:1360px;
+    margin:0 auto;
+}
+.center4{
+    width: 1250px;
+    background: #6E707C;
+}
+.center4 table{
+    border-collapse: separate;
+    border-spacing: 18px 20px;
+}

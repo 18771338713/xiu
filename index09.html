@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <link tyle="text/css" rel="stylesheet" href="css/index09.css"/>
+    <link tyle="text/css" rel="stylesheet" href="css/reset.css"/>
+    <link tyle="text/css" rel="stylesheet" href="css/common.css"/>
+    <link tyle="text/css" rel="stylesheet" href="css/reset.min.css"/>
+    <script tyle="text/js" rel="stylesheet" src="js/jquery-1.11.3.js"/></script>  
+</head>
+<body>
+    <div class="wrapper">
+        <!-- 页面header开始 -->
+            <div class="header">
+                <div class="header-content">
+                    <div class="header-left">
+                       <div class="header-left1">
+                        <span>登录</span>/<span>注册</span>
+                       </div>
+                       <div class="header-left2">
+                           <i><img src="images/01/shpping.png"/></i>购物袋<span>0</span>件
+                       </div>
+                       <div class="header-left3">
+                           我的走秀<span><img src="images/01/bottom.png"></span>
+                       </div>
+                       <div class="header-left3Div">
+                         <ul>
+                           <li><a href="index10.html">个人中心</a></li>
+                           <li><a href="index11.html">新增收货地址</a></li>
+                           <li><a href="index12.html">我的购物车</a></li>
+                           <li><a href="index13.html">我的订单列表</a></li>
+                         </ul>
+                       </div>
+                    </div>
+                    <div class="header-center">
+                        <div class="header-center1"><img src="images/01/logo.png"/></div>
+                        <ul>
+                            <li><a href="index.html">首页</a></li>
+                            <li><a href="index02.html">新品</a></li>
+                            <li><a href="index03.html">男士</a></li>
+                            <li><a href="index04.html">女士</a></li>
+                            <li><a href="index05.html">品牌</a></li>
+                            <li><a href="index06.html">发现</a></li>
+                            <li><a href="index07.html">专题</a></li>
+                            <li><a href="index08.html">手机走秀</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-right">
+                    <div class="header-right1"><input type="search" placeholder="请搜索Opening&nbsp;Ceremony试试"><span><img src="images/01/search.png"></span></div>                
+                    </div> 
+                </div>
+            </div>
+        <!-- 页面header结束 -->
+        <!-- 页面center开始 -->
+            <div class="center">
+                <p class="center-top">
+                     <span class="triangle-right"></span>
+                     您的位置:
+                     <a href="index.html">发现更多好货</a>&gt;图案刺绣A字牛仔裙
+                </p>
+                <div class="center-banner">
+                    <div id="center-bannerLeft">
+                        <div id="center-bannerLeft1">
+                            <img src="images/09/1.jpg">
+                        </div>
+                        <div id="center-bannerLeft2">
+                        <ul>
+                            <li><img src="images/09/g1_66_88.jpg"></li>
+                            <li><img src="images/09/g2_66_88.jpg"></li>
+                            <li><img src="images/09/g3_66_88.jpg"></li>
+                            <li><img src="images/09/g4_66_88.jpg"></li>
+                            <li><img src="images/09/g5_66_88.jpg"></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="center-bannerRight">
+                        <div class="center-bannerFont">
+                            <div class="center-bannerFont1"><b>图案刺绣A字牛仔裙</b><span>[限时8折]</span></div>
+                            <div class="center-bannerFont2">
+                                <span class="center-bannerFont2Span1">品&nbsp;&nbsp;&nbsp;&nbsp;牌：<u>Gucci</u>（古驰）<a href="javascript:;">已有6393条品牌评论</a></span><span class="center-bannerFont2Span2">商品编号：11638090</span>
+                            </div>
+                        </div>
+                        <div class="center-bannerAddress">
+                            <p><span class="center-bannerAddress1">限时抢购</span><span class="center-bannerAddress2">￥5984</span></p>
+                            <p>
+                                剩余<span id="day"></span>天
+                                <span id="hour"></span>时
+                                <span id="minute"></span>分
+                                <span id="second"></span>秒
+                            </p>
+                            <p>走秀价：￥7480</p>
+                            <p>发货地：<span class="center-bannerAddress8">意大利.米兰 </span><span class="center-bannerAddress9">预计7-14个工作日送达</span></p>
+                            <p><a href="javascript:;" class="center-bannerAddress10">查看配送流程</a></p>
+                            <p>税费：由海外卖家承担<a href="javascript:;">详细说明</a></p>
+                        </div>
+                        <div class="center-bannerChoice">
+                            <p class="center-bannerChoice1">颜色：<span>蓝色</span></p>
+                            <p class="center-bannerChoice2">尺码：
+                                <span>IT36</span>
+                                <span>IT38</span>
+                                <span>IT40</span>
+                                <span>IT42</span>
+                                <span>IT44</span>
+                                <span>IT46</span>
+                             <a href="javascript:;">尺码指南</a>
+                            </p>
+                            <p class="center-bannerChoice3">数量：<button id="reduce">-</button><input type="text" value="1" id="number"><button id="plus">+</button>件</p>
+                            <p>
+                                <span></span>支持分期付款
+                                <span></span>由Giuseppe Bertolucci Studio发货
+                                <span></span>由走秀网提供售后服务
+                            </p>
+                            <p>
+                                <span class="center-bannerChoice4">立即购买</span>
+                                <span class="center-bannerChoice5">放入购物袋</span>
+                                <span class="center-bannerChoice6"><span>+</span>收藏</span>
+                            </p>
+                            <p><span class="center-bannerChoice7">电话订购：400-888-4499</span>(8:00-24:00)</p>
+                            <p><span class="center-bannerChoice8">优惠提示</span>商品已参加"3.9下单8折"活动</p>
+                        </div>
+                        <div class="center-bannerBottom">
+                            <div class="center-bannerBottom1">
+                                <span class="center-bannerBottom1span1"><img src="images/09/4.png"></span>
+                                <span class="center-bannerBottom1span2">扫一扫二维码分享给朋友</span>
+                            </div>
+                            <div class="center-bannerBottom2">
+                                分享到：
+                                <span><img src="images/09/5.png"></span>
+                                <span><img src="images/09/6.png"></span>
+                                <span><img src="images/09/7.png"></span>
+                                <span><img src="images/09/8.png"></span>
+                                <span><img src="images/09/9.png"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-center">
+                   <div class="center-center1">
+                       <div class="center-center2">
+                           <ul>
+                               <li class="center-center2Li">商品信息</li>
+                               <li>品牌评论(6393)</li>
+                               <li>走秀承诺</li>
+                               <li>服务保障</li>
+                           </ul>
+                       </div>
+                       <div class="center-center3">
+                           <span class="center-center4">￥<b>5984</b></span>
+                           <span class="center-center5">放入购物车</span>
+                       </div>
+                   </div>
+                   <div class="center-center6">
+                       <div class="center-center7">
+                           <p class="center-center8">商品属性</p>
+                           <table>
+                               <tr>
+                                   <td><b>年份季节:</b>2016新品</td>
+                                   <td><b>腰型:</b>高腰</td>
+                                   <td><b>面料材质:</b>纯棉</td>
+                                   <td></td>
+                               </tr>
+                               <tr>
+                                   <td><b>服装风格:</b>通勤</td>
+                                   <td><b>裙长:</b>短</td>
+                                   <td><b>适合性别:</b>女性</td>
+                                   <td></td>
+                               </tr>
+                               <tr>
+                                   <td><b>服装流行元素:</b>刺绣</td>
+                                   <td><b>裙装款式:</b>牛仔裙</td>
+                                   <td><b>服装款式:</b>半身裙</td>
+                                   <td></td>
+                               </tr>
+                               <tr>
+                                   <td><b>裙摆样式:</b>A字裙</td>
+                                   <td><b>货到付款:</b>不支持</td>
+                                   <td></td>
+                                   <td></td>
+                               </tr>
+                               <tr>
+                                   <td colspan="4"><b>注意事项:</b>请根据服装洗涤标识选择正确的洗涤及护养方法。</td>
+                                   
+                               </tr>
+                           </table>
+                       </div>
+                       <div class="center-center9">
+                           <p class="center-center10"><b>你最近浏览的商品</b></p>
+                           <div>
+                             <span class="center-center9Span1"><img src="images/09/g1_81_108.jpg"></span>
+                             <span class="center-center9Span2">
+                                 <p>Weekend Maxxjwhafafafsf</p>
+                                 提花圆领羊毛拼接连衣裙(尺码偏小，建议买小一码)
+                             </span>  
+                           </div>
+                       </div>
+                       <div class="center-bottom">
+                           <p class="center-center8">尺寸对照</p>
+                           <div class="center-bottom1">
+                               <p class="center-bottom1P1"><b>女士上装/裙装尺码表（上装/裙装/外套/衬衣）</b></p>
+                               <table>
+                                   <tr class="center-bottom1Tr">
+                                       <td><b>S/M/L(国际)</b></td>
+                                       <td>XXS</td>
+                                       <td>XS/P</td>
+                                       <td>S</td>
+                                       <td>M</td>
+                                       <td>L</td>
+                                       <td>XL</td>
+                                       <td>XXL</td>
+                                       <td>XXXL</td>
+                                   </tr>
+                                   <tr>
+                                       <td><b>意大利(IT)</b></td>
+                                       <td>36</td>
+                                       <td>38</td>
+                                       <td>40</td>
+                                       <td>42</td>
+                                       <td>44</td>
+                                       <td>46</td>
+                                       <td>48</td>
+                                       <td>50</td>
+                                   </tr>
+                                   <tr class="center-bottom1Tr">
+                                       <td><b>美国(US)</b></td>
+                                       <td>0</td>
+                                       <td>2</td>
+                                       <td>4</td>
+                                       <td>6</td>
+                                       <td>8</td>
+                                       <td>10</td>
+                                       <td>12</td>
+                                       <td>14</td>
+                                   </tr>
+                                   <tr>
+                                       <td><b>英国(UK)</b></td>
+                                       <td>4</td>
+                                       <td>6</td>
+                                       <td>8</td>
+                                       <td>10</td>
+                                       <td>12</td>
+                                       <td>14</td>
+                                       <td>16</td>
+                                       <td>18</td>
+                                   </tr>
+                                   <tr class="center-bottom1Tr">
+                                       <td><b>法国(FR)</b></td>
+                                       <td>32</td>
+                                       <td>34</td>
+                                       <td>36</td>
+                                       <td>38</td>
+                                       <td>40</td>
+                                       <td>42</td>
+                                       <td>44</td>
+                                       <td>46</td>
+                                   </tr>
+                                   <tr>
+                                       <td><b>欧洲(EU)</b></td>
+                                       <td>36</td>
+                                       <td>38</td>
+                                       <td>40</td>
+                                       <td>42</td>
+                                       <td>44</td>
+                                       <td>46</td>
+                                       <td>48</td>
+                                       <td>50</td>
+                                   </tr>
+                                   <tr class="center-bottom1Tr">
+                                       <td><b>中国(号型)</b></td>
+                                       <td>150/76A</td>
+                                       <td>155/80A</td>
+                                       <td>160/84A</td>
+                                       <td>165/88A</td>
+                                       <td>170/92A</td>
+                                       <td>175/96A</td>
+                                       <td>175/100A</td>
+                                       <td>180/104A</td>
+                                   </tr>
+                                   <tr>
+                                       <td><b>个人净胸围(厘米)</b></td>
+                                       <td>77-79</td>
+                                       <td>80-82</td>
+                                       <td>83-85</td>
+                                       <td>86-88</td>
+                                       <td>89-91</td>
+                                       <td>92-94</td>
+                                       <td>95-97</td>
+                                       <td>98-99</td>
+                                   </tr>
+                                   <tr class="center-bottom1Tr">
+                                       <td><b>个人净胸围(厘米)</b></td>
+                                       <td>60-62</td>
+                                       <td>63-65</td>
+                                       <td>66-68</td>
+                                       <td>69-71</td>
+                                       <td>72-74</td>
+                                       <td>75-77</td>
+                                       <td>78-80</td>
+                                       <td>81-83</td>
+                                   </tr>
+                                   <tr>
+                                       <td><b>个人净胸围(厘米)</b></td>
+                                       <td>85-87</td>
+                                       <td>88-90</td>
+                                       <td>91-93</td>
+                                       <td>94-96</td>
+                                       <td>97-99</td>
+                                       <td>100-102</td>
+                                       <td>103-105</td>
+                                       <td>106-108</td>
+                                   </tr>
+                               </table>
+                               <div class="center-bottom2">
+                                 <p><b>温馨提示：</b></p>
+                                 <p>1、每个品牌因国别的不同，尺码标注方式也不同，请按照本商品所标注的国别尺码进行对照选择。例如：IT尺码，请对照意大利（IT）尺码进行选择。</p>
+                                 <p>2、如果您购买过改品牌服装，请按照以前的尺码购买。</p>
+                                 <p>3、本尺码表是根据数据采集制作而成，适用于绝大多数人群，但不适用于特殊体型要求。</p>
+                                 <p>4、身高、体重与尺码没有绝对关系，155CM丰腴和168CM瘦高的女士也许会穿同一尺码，胸围是影响上衣尺码选择的关键因素，建议您可以以胸围数值来选择上装/裙装尺码。</p>
+                                 <p>5、如果您还有疑问，请咨询我们的在线客服人员，我们会耐心解答您的问题，并帮助您选择尺码。</p>
+                               </div>
+                               <p class="center-bottom1P2"><b>女性人体测量示意图</b></p>
+                               <div class="center-bottom3">
+                                 <div class="center-bottom3Div1"><img src="images/09/09_1.png"></div>
+                                 <div class="center-bottom3Div2">
+                                   <p><span>1</span>领围：脖长的1/2处水平绕一周的测量值</p>
+                                   <p><span>2</span>胸围：在胸部经过胸高点水平绕一周的测量值</p>
+                                   <p><span>3</span>腰围：在腰部最细的位置水平绕一周的测量值</p>
+                                   <p><span>4</span>肩宽：在背部从左肩点水平到右肩点的测量值</p>
+                                   <p><span>5</span>臀围：在臀部最丰满位置水平绕一周的测量值</p>
+                                 </div>                                 
+                               </div>
+                               <p class="center-bottom4">全球名店优势</p>
+                               <div class="center-bottom5">
+                                 <div class="center-bottom5Div1">
+                                   <span class="center-bottom5Div1Span1"><img src="images/09/09_2.png"></span>
+                                   <span class="center-bottom5Div1Span2"><b>100%正品保证</b>走秀权与品牌商官方，以及授权经销商和正规百货零售商合作，采购流程严谨规范，确保100%正品。</span>
+                                 </div>
+                                 <div class="center-bottom5Div2">
+                                   <span class="center-bottom5Div1Span1"><img src="images/09/09_3.png"></span>
+                                   <span class="center-bottom5Div1Span2"><b>高品质</b>专注为追求高品质生活方式的高端用户服务。全球专业买手团队，以敏捷的速度将欧美新品推送给中国用户，用户打折信息，速度比国内专柜领先至少2个月。</span>
+                                 </div>
+                                 <div class="center-bottom5Div3">
+                                   <span class="center-bottom5Div1Span1"><img src="images/09/09_4.png"></span>
+                                   <span class="center-bottom5Div1Span2"><b>海外直邮</b>高效的海外分仓，快速安全运送并极大降低国际运费。全程提供从下单到收货完整物流信息。商品依法向海关申报纳税。</span>
+                                 </div>                                 
+                               </div>
+                               <div class="center-bottom6"><img src="images/09/wx.jpg"></div>
+                               <p class="center-bottom7">商品实拍</p>
+                               <p class="center-bottom8">
+                                 <span>温馨提示：</span>走秀网所有商品均为实物拍摄，我们尽最大努力将商品的原貌展示给您，但因拍摄灯光、个人显示器等原因，可能会有一定色差，请以实物为准。
+                               </p>
+                               <div class="center-bottom9">
+                                 <img src="images/09/1.jpg">
+                                 <img src="images/09/2.jpg">
+                                 <img src="images/09/3.jpg">
+                                 <img src="images/09/4.jpg">
+                                 <img src="images/09/5.jpg">
+                               </div>
+                               <p class="center-bottom7">品牌故事</p>
+                               <p class="center-bottom10"><img src="images/09/1266_2_11469528238384.jpg"></p>
+                           </div>                            
+                       </div>
+                   </div>
+                   <div class="center2">
+                      <div class="center2-1"><b>温馨提醒</b>走秀网市场价采集自品牌国内外商场专柜及品牌官网标价，仅供参考，不作为购物依据。因各种因素导致市场价格浮动，从而造成走秀网市场价与专柜价或官网标价不一致的，为避免由此产生的任何纠纷，走秀网提醒你请均以专柜价或官网标价为准，敬请知悉。</div>
+                      <div class="center2-2">
+                            <div class="center2-2Div1">
+                              <div class="center2-2Div1div1">
+                                <p class="center2-2Div1div1p">品牌满意度</p>
+                                <p><span>5.0</span>分</p>
+                                <p><img src="images/09/xin.png"></p>
+                              </div>
+                              <div class="center2-2Div1div2">
+                                <p>品牌喜爱<img src="images/09/xin.png">5.0</p>
+                                <p>品牌质量<img src="images/09/xin.png">5.0</p>
+                                <p>描述相符<img src="images/09/xin.png">5.0</p>
+                              </div>
+                            </div>
+                            <div class="center2-2Div2">
+                              <div class="center2-2Div2div1">发表评论，送购物礼劵</div>
+                              <div class="center2-2Div2div2">
+                                <p>1.x****32.?**** 3.x****3</p>
+                                <p>4.x****15.s****36.精****等</p>
+                                <p>7.越****夜8.x****29.米****多</p>
+                              </div>
+                            </div>
+                            <div class="center2-2Div3">
+                              <div class="center2-2Div3div1">发表评论</div>
+                              <div class="center2-2Div3div2">每天100名发表评论用户可获赠现金劵<a href="javascript:;">评论规则</a></div>
+                            </div>
+                      </div>
+                      <div class="center2-3">
+                          <div class="center2-3div1">
+                              <div class="center2-3div1Div1">
+                                  <ul>
+                                      <li>全部(6393)</li>
+                                      <li>满意(6338)</li>
+                                      <li>一般(43)</li>
+                                      <li>不满意(12)</li>
+                                  </ul>
+                              </div>
+                              <div class="center2-3div1Div2">
+                                  <select>
+                                      <option value="">品牌全部品论</option>
+                                      <option value="">品牌全部品论1</option>
+                                      <option value="">品牌全部品论2</option>
+                                  </select>
+                                  <select>
+                                      <option value="">默认超类</option>
+                                      <option value="">默认超类1</option>
+                                      <option value="">默认超类2</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="center2-3div2">
+                              <div class="center2-3div2Div1">
+                                  <div><img src="images/09/none.jpg"></div>
+                                  <div>*********9999</div>
+                                  <div><a href="javascript:;">已购买过此产品</a></div>
+                              </div>
+                              <div class="center2-3div2Div2">
+                                  <div class="center2-3div2Div2_1">
+                                      <img src="images/09/g1_100_100.jpg">
+                                  </div>
+                                  <div class="center2-3div2Div2_2">
+                                      <div>
+                                          <p>评分：<img src="images/09/xin.png">颜色：绿红</p>
+                                          <p>尺码：90cm</p>
+                                      </div>
+                                      <div>第一次在走秀网购买的商品，质量非常好，正品，包装全套，送礼很体面！VIP客户经理赵东如的服务很好很贴心，好评加赞！</div>
+                                      <div><span class="center2-3div2Div2_span1"><a href="javascript:;">Gucci 古驰 男士绿红帆布条纹皮带 114984 HI7AR 8476（香港直发）</a></span><span class="center2-3div2Div2_span2">发表于2014-10-22 12:53:58</span></div>
+                                  </div>
+                              </div>                              
+                          </div>
+                           <div class="center2-3div3">
+                              <div class="center2-3div3Div1">
+                                  <div><img src="images/09/man.jpg"></div>
+                                  <div>侯*********杨</div>
+                                  <div><a href="javascript:;">已购买过此产品</a></div>
+                              </div>
+                              <div class="center2-3div3Div2">
+                                  <div class="center2-3div3Div2_1">
+                                      <img src="images/09/g1_100_100(1).jpg">
+                                  </div>
+                                  <div class="center2-3div3Div2_2">
+                                      <div>
+                                          <p>评分：<img src="images/09/xin.png"><span>已获赠劵</span>颜色：花色</p>
+                                          <p>尺码：90cm</p>
+                                          <p>体重：60公斤</p>
+                                          <p>身高：170厘米</p>
+                                          <p>该用户认为实际尺码：<b>[合适]</b></p>
+                                      </div>
+                                      <div>拿到上海国金的专卖店去验过了，确实是正品，不过可能过了点季。平时在那里买，长袖的需要改短，但这个短袖的大小长短都正合适。面料手感都不错，就是有点皱巴巴，估计要烫一下会比较好。不能开发票比较郁闷，国金都主动给开发票的。总体满意，下次应该还有继续购买的机会吧！</div>
+                                      <div class="center2-3div3Div2_21">回复：亲爱的，小秀感动的呀～～咱的宝贝品质，千锤百炼出深山，烈火来炼亦不怕，只为寻得识货人呀！(T_T)</div>
+                                      <div><span class="center2-3div3Div2_span1"><a href="javascript:;">Gucci 古驰 男士花色短袖翻领图案衬衫（全球速递）</a></span><span class="center2-3div3Div2_span2">发表于2014-10-03 21:12:47</span></div>
+                                  </div>
+                              </div>                              
+                          </div>
+                          <div class="center2-3div4">
+                              <div class="center2-3div4Div1">
+                                  <div><img src="images/09/none.jpg"></div>
+                                  <div>*********9081</div>
+                                  <div><a href="javascript:;">已购买过此产品</a></div>
+                              </div>
+                              <div class="center2-3div4Div2">
+                                  <div class="center2-3div4Div2_1">
+                                      <img src="images/09/g1_100_100(2).jpg">
+                                  </div>
+                                  <div class="center2-3div4Div2_2">
+                                      <div>
+                                          <p>评分：<img src="images/09/xin.png">颜色：紫色</p>
+                                          <p>尺码：F</p>
+                                      </div>
+                                      <div>全皮质款式实用连电脑包都省了、空间足够、手拎肩挎轻盈。 手袋在手把扣环上有一枚镶嵌了竹节的心形圈作为装饰，这么应景的设计，情人节当然要有的礼物。值得拥有！</div>
+                                      <div class="center2-3div3Div2_21">回复：好宝贝，您值得拥有~</div>
+                                      <div><span class="center2-3div4Div2_span1"><a href="javascript:;">Gucci 古驰 男士绿红帆布条纹皮带 114984 HI7AR 8476（香港直发）</a></span><span class="center2-3div4Div2_span2">发表于2013-12-12 14:59:17</span></div>
+                                  </div>
+                              </div>                              
+                          </div>
+                          <div class="center2-3div4">
+                              <div class="center2-3div4Div1">
+                                  <div><img src="images/09/none.jpg"></div>
+                                  <div>*********8666</div>
+                                  <div><a href="javascript:;">已购买过此产品</a></div>
+                              </div>
+                              <div class="center2-3div4Div2">
+                                  <div class="center2-3div4Div2_1">
+                                      <img src="images/09/g1_100_100(3).jpg">
+                                  </div>
+                                  <div class="center2-3div4Div2_2">
+                                      <div>
+                                          <p>评分：<img src="images/09/xin.png"><span>已获赠劵</span>颜色：紫色</p>
+                                          <p>尺码：F</p>
+                                      </div>
+                                      <div>全皮质款式实用连电脑包都省了、空间足够、手拎肩挎轻盈。 手袋在手把扣环上有一枚镶嵌了竹节的心形圈作为装饰，这么应景的设计，情人节当然要有的礼物。值得拥有！有一枚镶嵌了竹节的心形圈作为装饰，这么应景的设计，情人节当然要有的礼物。值得拥有</div>
+                                      <div><span class="center2-3div4Div2_span1"><a href="javascript:;">Gucci 古驰 男士绿红帆布条纹皮带 114984 HI7AR 8476（香港直发）</a></span><span class="center2-3div4Div2_span2">发表于2013-12-12 14:59:17</span></div>
+                                  </div>
+                              </div>                              
+                          </div>
+                          <div class="center2-3div2">
+                              <div class="center2-3div2Div1">
+                                  <div><img src="images/09/none.jpg"></div>
+                                  <div>*********0202</div>
+                                  <div><a href="javascript:;">已购买过此产品</a></div>
+                              </div>
+                              <div class="center2-3div2Div2">
+                                  <div class="center2-3div2Div2_1">
+                                      <img src="images/09/g1_100_100(4).jpg">
+                                  </div>
+                                  <div class="center2-3div2Div2_2">
+                                      <div>
+                                          <p>评分：<img src="images/09/xin.png">颜色：黑色</p>
+                                          <p>尺码：90cm</p>
+                                      </div>
+                                      <div>非常好,性价比高!</div>
+                                      <div><span class="center2-3div2Div2_span1"><a href="javascript:;">Gucci 古驰 男士绿红帆布条纹皮带 114984 HI7AR 8476（香港直发）</a></span><span class="center2-3div2Div2_span2">发表于2014-10-22 12:53:58</span></div>
+                                  </div>
+                              </div>                              
+                          </div>
+                      </div>
+                      <div class="center2-4">
+                          <div class="center2-41">
+                              <div class="center2-42"><a href="javascript:;">查看品牌全部评论>></a></div>
+                              <div class="center2-43">
+                                  <div class="center2-43left"><span>第一页</span>
+                                  <span>上一页</span></div>
+                                  <div class="center2-43center">
+                                    <ul>
+                                      <li>1</li>
+                                      <li>2</li>
+                                      <li>3</li>
+                                    </ul>
+                                 </div>
+                                  <div class="center2-43right"><span>下一页</span>
+                                  <span>最后页</span></div>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                </div>
+                
+            </div>
+        <!-- 页面center结束 -->
+        <!-- 页面footer开始 -->
+            <div class="footer">
+               <div class="footer1">
+                   <div class="footer1-center">
+                       <div class="footer1-center1">
+                           <ul>
+                               <li>
+                                <img src="images/01/footer1.png">
+                                <span class="footer1-centerspan2">在线客服</span>
+                               </li>
+                               <li>
+                                <img src="images/01/footer2.png">
+                                <span class="footer1-centerspan2">400-888-4499</span>
+                                <span class="footer1-centerspan1">08:00-24:00</span>
+                               </li>
+                               <li>
+                                <img src="images/01/footer3.png">
+                                <span class="footer1-centerspan2">我要吐槽</span>
+                               </li>
+                           </ul>
+                       </div>
+                       <div class="footer1-center2">
+                           <div class="center2-div">
+                            <b>新手入门</b>
+                           <ul class="center2-ul">
+                               <li>购物流程</li>
+                               <li>会员等级与提升</li>
+                               <li>我的走秀</li>
+                               <li>常见问题</li>
+                               <li>手机走秀</li>
+                           </ul>
+                           </div>
+                       </div>
+                       <div class="footer1-center3">
+                         <div class="center2-div">
+                            <b>配送方式</b>
+                           <ul class="center2-ul">
+                               <li>海外配送说明</li>
+                               <li>配送运费</li>
+                               <li>配送查询</li>
+                           </ul>
+                           </div>
+                       </div>
+                       <div class="footer1-center4">
+                         <div class="center2-div">
+                            <b>支付方式</b>
+                           <ul class="center2-ul">
+                               <li>在线支付</li>
+                               <li>货到付款</li>
+                               <li>银行汇款</li>
+                           </ul>
+                           </div>
+                       </div>
+                       <div class="footer1-center5">
+                         <div class="center2-div">
+                            <b>售后服务</b>
+                           <ul class="center2-ul">
+                               <li>退换货自助申请</li>
+                               <li>退换货政策</li>
+                               <li>退换货流程</li>
+                               <li>退款说明</li>
+                               <li>CEO邮箱</li>
+                           </ul>
+                           </div>
+                       </div>
+                       <div class="footer1-center6">
+                         <div class="center2-div">
+                           <b>走秀微信客服</b>
+                           <p><img src="images/01/weibo.png"></p>
+                         </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="footer2">
+                  <div class="footer2-top">
+                    <ul>
+                      <li>关于走秀</li>|
+                      <li>About&nbsp;us</li>|
+                      <li>媒体报道</li>|
+                      <li>品牌招商</li>|
+                      <li>加入走秀</li>|
+                      <li>网站地图</li>|
+                      <li>联系我们</li>|
+                      <li>品牌大全</li>|
+                      <li>邮件订阅</li>|
+                      <li>品牌专题</li>|
+                      <li>WAP站点</li>
+                    </ul>
+                  </div>
+                  <div class="footer2-center">
+                    <span><img src="images/01/shopping1.png"/><b>海外直发</b></span>
+                    <span><img src="images/01/shopping2.png"/><b>正品保证</b></span>
+                    <span><img src="images/01/shopping3.png"/><b>售后保障</b></span>
+                  </div>
+               </div> 
+               <div class="footer3">
+                 <span>版权所有&copy;2011-2016上海旅烨网络科技有限公司，严禁抄袭复制</span><span>ICP备案号：泸ICP备15011558号</span>
+               </div>
+               <div class="footer4">
+                  <img src="images/01/footer4.png"/>
+                    <span class="footer4-span1">增值电信业务经营许可证</span>
+                  <img src="images/01/footer5.png"/>
+                    <span class="footer4-span1">食品经营许可证</span>
+                  <img src="images/01/footer6.png"/>
+                    <span class="footer4-span1">深圳网络警察报警平台</span>
+                    <span class="footer4-span2">
+                    <img src="images/01/footer8.jpg"/>
+                    </span>
+                  <img src="images/01/footer7.png"/>
+                     <span class="footer4-span1">消费者权益服务</span>
+               </div>
+            </div>
+        <!-- 页面footer结束 -->  
+    </div> 
+    <script tyle="text/js" rel="stylesheet" src="js/index09.js"/></script>
+    <script type="text/javascript" src="js/common.js"/></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+
+.center{
+    width: 1920px;
+    height:3050px;
+    margin:10px auto;
+    background: white;
+}
+.center1{
+    width: 1500px;
+    margin:20px auto;
+}
+.center1-p{
+    font-size: 16px;
+    color:#666;
+}
+.triangle-right{
+    display: inline-block;
+    margin-right:5px;
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid transparent;
+    border-left: 10px solid orange;
+    border-bottom: 5px solid transparent;
+}
+.center1-p2 span{
+    margin-top:15px;
+    display:inline-block;
+    margin-right:1px;
+    width: 150px;
+    line-height: 50px;
+    font-size: 28px;
+    text-align: center;
+    background:#ECEAEF;
+}
+.center1-p2 span:hover{
+    background: orange;
+    color:white;
+    cursor:pointer;
+}
+.center2{
+    width: 1500px;
+    height: 50px;
+    border-top:3px solid orange;
+    background:#ECEAEF;
+}
+.center2 span{
+    font-size: 14px;
+    margin-left:20px;
+}
+.center2 ul li{
+    display: inline-block;
+    margin:10px;
+    width: 20px;
+    text-align: center;
+    font-size: 14px;    
+}
+.center2 ul li:hover{
+    background: orange;
+    color:white;
+    cursor:pointer;
+}
+.center3{
+    border:1px solid red;
+    width: 1500px;
+    margin:0 auto;
+}
+.center3-1{
+    float:left;
+    width: 100px;
+}
+.center3-1 p{
+    margin:20px;
+    width: 50px;
+    line-height: 50px;
+    background: orange;
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50px;
+}
+.center3-2{
+    float:left;
+    width: 460px;
+    margin-right:5px;
+}
+.center3-2 ul{
+    width: 280px;
+    padding:20px 0px;
+    border-bottom:1px solid #999;
+}
+.center3-2 ul li{
+    margin:10px;
+    color:#666;
+    font-size: 14px;
+}
+.center3-3{
+    float:left;
+    width: 460px;
+    margin-right:5px;
+}
+.center3-3 ul{
+    width: 280px;
+    padding:20px 0px;
+    border-bottom:1px solid #999;
+}
+.center3-3 ul li{
+    margin:10px;
+    color:#666;
+    font-size: 14px;
+}
+.center3-4{
+    float:left;
+    width: 460px;
+}
+.center3-4 ul{
+    width: 280px;
+    padding:20px 0px;
+    border-bottom:1px solid #999;
+}
+.center3-4 ul li{
+    margin:10px;
+    color:#666;
+    font-size: 14px;
+}
+.center4{
+    clear:both;
+    width: 1500px;
+    margin:0 auto;
+}
+.center4-1{
+    float:left;
+    width: 100px;
+}
+.center4-1 p{
+    margin:20px;
+    width: 50px;
+    line-height: 50px;
+    background: orange;
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50px;
+}
+.center5{
+    clear:both;
+    width: 1500px;
+    margin:0 auto;
+}
+.center5-1{
+    float:left;
+    width: 100px;
+}
+.center5-1 p{
+    margin:20px;
+    width: 50px;
+    line-height: 50px;
+    background: orange;
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50px;
+}
+

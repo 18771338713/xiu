@@ -1,0 +1,108 @@
+.center{
+    width: 1400px;
+    height: 700px;
+    margin:30px auto;
+    border:1px solid #999;
+}
+.center-p1{
+    margin-top:10px;
+    margin-left:20px;
+}
+.center-left{
+    float:left;
+    width: 250px;
+    height: 650px;
+    margin:10px;
+    border:1px solid #999;
+    border-radius: 2px;
+}
+.center-leftP1{
+    width: 230px;
+    padding-left:20px;
+    line-height: 50px;
+    font-size: 24px;
+    background: #E3E3E3;
+    border-radius: 2px;
+}
+.center-leftDiv1{
+    width: 250px;
+}
+.center-leftDiv1 p{
+    background: #F1F1F1;
+    padding-left:20px;
+    width: 230px;
+    line-height: 40px;
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+}
+.center-leftDiv1 ul li{
+    margin:5px 30px;
+    color:#666;
+}
+.center-leftDiv1 ul li span{
+    color:red;
+    margin-left:5px;
+}
+.center-right{
+    float:left;
+    width: 1096px;
+    margin-left:30px;
+}
+.center-rightDiv1{
+    width: 1078px;
+    line-height: 50px;
+    border-bottom:5px solid orange;
+    color:orange;
+    font-size:16px;
+    padding-left:20px;
+}
+.center-rightDiv2{
+    width: 800px;
+    height: 500px;
+    margin:50px;
+}
+.center-rightDiv2 p{
+    margin:20px 0px;
+    color:#666;
+}
+.center-rightDiv2 p span{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.center-rightDiv2 p span b{
+    color:red;
+}
+.center-rightDiv2P1 input{
+    width:200px;
+}
+.center-rightDiv2P2 select{
+    width: 100px;
+}
+.center-rightDiv2P3 input{
+    width: 400px;
+}
+.center-rightDiv2P4 input{
+    width: 200px;
+}
+.center-rightDiv2P5 input{
+    color:#666;
+    width: 200px;
+}
+.center-rightDiv3{
+    margin-left:100px;
+    width: 200px;
+}
+.center-rightDiv3P1{
+    margin:20px 0px;
+}
+.center-rightDiv3P2{
+    width: 150px;
+    line-height: 40px;
+    background: orange;
+    color:white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor:pointer;
+}
